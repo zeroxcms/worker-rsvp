@@ -60,3 +60,4 @@ CMS_URL = "https://cms.eventuai.workers.dev"
 # pages render data from its /api/* endpoints (signatures in the visitor's URL
 # authenticate every call, so no secret is shared with this Worker).
 # TICKET_PLUGIN_URL = "https://ticket.eventuai.com"
+
