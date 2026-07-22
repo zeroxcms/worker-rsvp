@@ -26,7 +26,7 @@ binding = "CF_VERSION_METADATA"
 [[d1_databases]]
 binding = "PUBLISHED_DB"
 database_name = "cms-published"
-database_id = "00000000-0000-0000-0000-000000000000"
+database_id = "e7788422-82a5-4531-8534-06d520a1bfde"
 
 [[r2_buckets]]
 binding = "MEDIA_BUCKET"
@@ -51,7 +51,7 @@ bucket_name = "worker-cms-media"
 # Base URL of the CMS Worker — used ONLY by the unsubscribe write-back
 # ({CMS_URL}/__cms/*, src/unsubscribe.ts). RSVP submits and registrations
 # never call the CMS: they insert rows into PUBLISHED_DB (src/submissions.ts).
-CMS_URL = "https://cms.example.com"
+CMS_URL = "https://cms.eventuai.workers.dev"
 # Public origin serving the check-in QR links (cms-plugin-checkin's
 # /checkin/{listId}/{guestId}/{sig} routes) embedded by rsvp-qrcode blocks.
 # Leave unset to fall back to a bare signed token in the QR.
